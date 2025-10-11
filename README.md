@@ -1,7 +1,7 @@
 # Simple Calculator Project Roadmap
 
 ## 🟢 Beginner Projects
-- [ ] **Personal Portfolio Website**  
+- [x] **Personal Portfolio Website**  
 - [ ] **Simple Calculator**  
 - [ ] **Guestbook**  
 - [ ] **Image Gallery**
