@@ -1,0 +1,33 @@
+Simple Calculator
+Beginner Projects
+Personal Portfolio Website
+Simple Calculator
+Guestbook
+Image Gallery
+
+Intermediate Projects
+Blog System
+User Registration & Login System
+Simple CMS (Content Management System)
+Product Catalog
+File Upload System
+
+Advanced Projects
+E-Commerce Website (No Framework)
+Online Forum
+Expense Tracker
+Mini Social Network
+Learning Management System (LMS)
+
+Bonus Challenges
+Build your own mini PHP router
+Create your own template system
+Implement AJAX CRUD (PHP + fetch API)
+Build a simple REST API without any framework
+Recommended Order
+Portfolio
+Blog
+Login System
+CMS
+E-Commerce
+Forum or LMS
