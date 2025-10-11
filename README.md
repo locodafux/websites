@@ -1,4 +1,4 @@
-# Simple Calculator Project Roadmap
+# Web development Project Roadmap
 
 ## 🟢 Beginner Projects
 - [x] **Simple Calculator**  
