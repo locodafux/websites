@@ -3,6 +3,8 @@
 ## 🟢 Beginner Projects
 - [x] **Simple Calculator**  
 - [ ] **Personal Portfolio Website**  
+    References: 
+        https://juliangarnier.com/
 - [ ] **Guestbook**  
 - [ ] **Image Gallery**
 
@@ -33,4 +35,6 @@
 4. CMS  
 5. E-Commerce  
 6. Forum or LMS
+
+
 
