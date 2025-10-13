@@ -1,8 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> 👋 Leonardo Timkang Jr.</title>
-    </head>
-    <body>
-    </body>
+  <head>
+    <title>👋 Leonardo Timkang Jr.</title>
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+  <body>
+    <div class="chat-container" id="chat"></div>
+
+    <script>
+      const messages = [
+        { text: "Hey there 👋", delay: 500 },
+        { text: "I'm Leonardo", delay: 1500 },
+        { text: "I design and code things on the web", delay: 2500 },
+        { text: "Im currently working on my personal portfolio", delay: 3500 },
+        { text: "You can find me on LinkedIn Link and Github Link", delay: 4500 },
+        { text: "Or contact me directly on gmail address link", delay: 5500 },
+        { text: "Have a good night", delay: 6500 },
+        { text: "~L.", delay: 7500 }
+      ];
+      const messageDelay = 1000;
+
+      const chatContainer = document.getElementById("chat");
+
+      messages.forEach((msg, index) => {
+        const bubble = document.createElement("div");
+        bubble.className = "bubble";
+        bubble.id = `msg${index + 1}`;
+
+        const typing = document.createElement("div");
+        typing.className = "typing";
+        typing.innerHTML = `
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        `;
+
+        const text = document.createElement("span");
+        text.className = "message";
+        text.textContent = msg.text;
+
+        bubble.appendChild(typing);
+        bubble.appendChild(text);
+        chatContainer.appendChild(bubble);
+      });
+
+      window.onload = () => {
+        messages.forEach((msg, index) => {
+          const bubble = document.getElementById(`msg${index + 1}`);
+          const typing = bubble.querySelector(".typing");
+          const text = bubble.querySelector(".message");
+
+          setTimeout(() => {
+            bubble.classList.add("show");
+          }, msg.delay);
+
+          setTimeout(() => {
+            typing.style.display = "none";
+            text.classList.add("show");
+          }, msg.delay + messageDelay);
+        });
+      };
+    </script>
+  </body>
 </html>
