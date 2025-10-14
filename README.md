@@ -2,7 +2,7 @@
 
 ## 🟢 Beginner Projects
 - [x] **Simple Calculator**  
-- [ ] **Personal Portfolio Website**  
+- [x] **Personal Portfolio Website**  
     References: 
         https://juliangarnier.com/
 - [ ] **Guestbook**  
