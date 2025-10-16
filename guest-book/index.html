@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Guest Book</title>
+
+    <style>
+      body {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        background-color: #f3f4f6; 
+      }
+    </style>
+
+    <link rel="preload" href="main.css" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="main.css"></noscript>
+  </head>
+
+  <body>
+    <section class="container">
+
+      <!-- Logo -->
+      <img 
+        src="https://api.iconify.design/mdi/book-heart-outline.svg?color=%23007bff&width=64" 
+        alt="Guestbook Logo" 
+        class="logo"
+      >
+
+      <div class="card">
+        <span class="title">Welcome</span>
+        <p class="sub-title">
+            Every Visitor Has a Story — What’s Yours?
+        </p>
+
+        <div class="form">
+          <input type="text" placeholder="Phone Number">
+          <button>Login</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Fade-in script -->
+    <script>
+      window.addEventListener("load", () => {
+        document.body.style.visibility = "visible";
+        document.body.style.opacity = "1";
+      });
+    </script>
+  </body>
+</html>
